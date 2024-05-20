@@ -1,0 +1,30 @@
+.above-buttons{
+    display: flex;
+    
+    width: 88%;
+    margin: auto;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.above-buttons div{
+    border: 1px solid;
+    height: 100%;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7%;
+    background-color: rgb(81, 81, 86);
+}
+.above-buttons p{
+    margin-bottom: 0;
+    font-size: 8px;
+}
+.above-buttons img{
+    margin-top: 10px;
+    width:50%;
+
+}
